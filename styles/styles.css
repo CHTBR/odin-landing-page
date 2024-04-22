@@ -1,0 +1,45 @@
+/* Variables */
+:root {
+    --dark-blue: #1f2937;
+    --grey: #e5e7eb;
+    --blue: #3882f6;
+    --light-grey: #f9faf8;
+}
+
+/* General layout */
+body {
+    margin: 0px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+/* Header */
+header {
+    padding: 40px 0;
+    background-color: var(--dark-blue);
+    color: var(--grey);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav a {
+    margin: 20px;
+    color: var(--grey);
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: var(--blue);
+}
+
+/* Introduction */
+
+/* Members */
+
+/* Quote */
+
+/* Call to action */
+
+/* Footer */
