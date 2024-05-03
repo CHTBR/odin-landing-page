@@ -119,6 +119,20 @@ nav a:hover {
 }
 
 /* Quote */
+#quote {
+    margin: 0;
+    background-color: var(--grey);
+    padding: 10vw 25vw;
+}
+
+#quote blockquote {
+    margin: 0 0 5px 0;
+}
+
+#quote figcaption {
+    font-weight: bold;
+    text-align: right;
+}
 
 /* Call to action */
 
