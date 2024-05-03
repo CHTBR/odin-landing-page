@@ -152,3 +152,9 @@ nav a:hover {
 }
 
 /* Footer */
+footer {
+    color: white;
+    background-color: var(--dark-blue);
+    text-align: center;
+    padding: 2vw 0;
+}
