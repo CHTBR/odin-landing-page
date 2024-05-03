@@ -21,6 +21,7 @@ button {
     color: var(--light-grey);
     border-radius: 9px;
     font-size: 15px;
+    border-color: white;
 }
 
 button:hover {
@@ -135,5 +136,19 @@ nav a:hover {
 }
 
 /* Call to action */
+#call-to-action {
+    margin: 5vw 20vw;
+    padding: 2vw 5vw;
+    background-color: var(--blue);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 5vw;
+}
+
+#call-to-action button {
+    align-self: center;
+}
 
 /* Footer */
